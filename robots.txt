@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tsukikageuranai-ui.github.io/yume-uranai/sitemap.xml

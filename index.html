@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>夢占い | 見た夢の意味を、やさしく読み解く夢辞典</title>
+<meta name="description" content="見た夢の意味を、やさしく読み解く夢辞典。見た夢をひとこと入力するだけで、夢辞典から近い意味を探せます。">
+<meta name="theme-color" content="#10142a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2310142a'/%3E%3Ccircle cx='16' cy='16' r='8' fill='%23e8b86d'/%3E%3C/svg%3E">
+<link rel="canonical" href="https://tsukikageuranai-ui.github.io/yume-uranai/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="夢占い | 見た夢の意味を、やさしく読み解く夢辞典">
+<meta property="og:description" content="見た夢の意味を、やさしく読み解く夢辞典。見た夢をひとこと入力するだけで、夢辞典から近い意味を探せます。">
+<meta property="og:site_name" content="夢占い">
+<meta property="og:url" content="https://tsukikageuranai-ui.github.io/yume-uranai/">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+
+
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="./">夢占い</a>
+    <nav class="nav" aria-label="メニュー"><a href="dictionary/">夢辞典</a></nav>
+  </div>
+</header>
+<main class="wrap">
+
+<div class="hero">
+  <div class="moon" aria-hidden="true"></div>
+  <h1>ゆうべの夢、<br>何を伝えている？</h1>
+  <p>見た夢をひとこと入力すると、夢辞典から近い意味を探します。</p>
+</div>
+
+<div class="card search-card">
+  <label for="dream-input">ゆうべ見た夢</label>
+  <textarea id="dream-input" placeholder="例: 白い蛇が足もとに巻きついてきた"></textarea>
+  <button class="btn" id="dream-search" type="button">夢辞典から探す</button>
+  <div class="results" id="dream-results" aria-live="polite"></div>
+</div>
+
+<section>
+  <h2>夢辞典から選ぶ</h2>
+<h3 class="cat-title">恋愛・人物</h3>
+<div class="dream-list">
+<a class="dream-card" href="dictionary/ex-lover/"><span class="t">元恋人の夢</span><span class="s">元恋人が出てくる夢は、その人自身よりも、その頃の気持ちや、いま心にある思いが映っているといわれます。</span></a>
+<a class="dream-card" href="dictionary/crush/"><span class="t">好きな人の夢</span><span class="s">好きな人が出てくる夢は、想いの強さだけでなく、その人への期待や少しの不安が映っているといわれます。</span></a>
+<a class="dream-card" href="dictionary/wedding/"><span class="t">結婚式の夢</span><span class="s">結婚式の夢は、人生の節目や、新しい約束・決意を象徴するといわれます。実際の結婚だけを示すものではありません。</span></a>
+<a class="dream-card" href="dictionary/celebrity/"><span class="t">芸能人・有名人の夢</span><span class="s">芸能人や有名人が出てくる夢は、憧れの気持ちや、自分がなりたい姿が映っているといわれます。</span></a>
+<a class="dream-card" href="dictionary/stranger/"><span class="t">知らない人の夢</span><span class="s">知らない人が出てくる夢は、まだ気づいていない自分の一面や、新しい出会いの予感を表すといわれます。</span></a>
+<a class="dream-card" href="dictionary/pregnancy/"><span class="t">妊娠する夢</span><span class="s">妊娠する夢は、新しい計画やアイデアが育ち始めているサインといわれます。実際の妊娠を示すものではありません。</span></a>
+<a class="dream-card" href="dictionary/deceased/"><span class="t">亡くなった人の夢</span><span class="s">亡くなった人が出てくる夢は、その人との思い出や、まだ整理しきれていない気持ちが映っているといわれます。不吉なものと決めつける必要はありません。</span></a>
+</div>
+<h3 class="cat-title">動物</h3>
+<div class="dream-list">
+<a class="dream-card" href="dictionary/snake/"><span class="t">蛇の夢の意味</span><span class="s">蛇は脱皮をくり返すことから「再生」や「変化」の象徴とされます。日本では古くから金運の使いともいわれ、多くの場合は前向きな変化のサインとして読まれます。</span></a>
+</div>
+<h3 class="cat-title">身体</h3>
+<div class="dream-list">
+<a class="dream-card" href="dictionary/teeth-falling-out/"><span class="t">歯が抜ける夢</span><span class="s">歯が抜ける夢は、身の回りの変化や、小さな不安が映っているといわれます。健康の前ぶれと決めつけるものではありません。</span></a>
+</div>
+<h3 class="cat-title">出来事</h3>
+<div class="dream-list">
+<a class="dream-card" href="dictionary/being-chased/"><span class="t">追いかけられる夢</span><span class="s">追いかけられる夢は、向き合うのを後回しにしている課題や、逃げたい気持ちを表すといわれます。</span></a>
+<a class="dream-card" href="dictionary/flying/"><span class="t">空を飛ぶ夢</span><span class="s">空を飛ぶ夢は、解放感や、気持ちが上向いているサインを表すといわれます。</span></a>
+</div>
+</section>
+
+<section>
+  <h2>使い方はかんたん</h2>
+  <ol class="steps">
+    <li><span class="n">1</span><div><div class="h">夢の内容を入力</div><div class="d">覚えている範囲で大丈夫です。短くてもかまいません。</div></div></li>
+    <li><span class="n">2</span><div><div class="h">夢辞典で意味を探す</div><div class="d">出てきた言葉から、近い夢のページを見つけます。</div></div></li>
+    <li><span class="n">3</span><div><div class="h">気になる場面を深掘り</div><div class="d">各ページの「場面別の詳しい意味」で、あなたの夢に近い場面を読めます（読みたい夢ごとにお求めいただけます）。</div></div></li>
+  </ol>
+</section>
+
+<section>
+<div class="cta">
+  <div class="h">読みたい夢だけ、詳しく読めます</div>
+  <div class="d">各ページの「場面別の詳しい意味」は、読みたい夢ごとにお求めいただけます。まずは、無料の基本の意味をどうぞ。</div>
+</div>
+</section>
+
+<p class="disclaimer">※夢占いの内容は、娯楽・参考としてお楽しみください。健康・お金・法律などの判断は、専門家にご相談ください。</p>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="links">
+      <a href="dictionary/">夢辞典</a>
+      <a href="about/">運営者情報・免責</a>
+      <a href="privacy/">プライバシー</a>
+    </div>
+    <div>© 2026 夢占い</div>
+  </div>
+</footer>
+<script src="assets/search-data.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>
